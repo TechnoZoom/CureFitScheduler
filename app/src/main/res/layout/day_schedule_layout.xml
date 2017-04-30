@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/header_date_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="29 Apr"
+        android:visibility="invisible"
+        android:textColor="@color/black"
+        android:textSize="@dimen/header_schedule_font_size"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="@dimen/vertical_separator_line_width"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/vertical_separator_view"
+        android:background="@color/lightGrey" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="40dp"
+        android:paddingBottom="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_title_text_view"
+        android:textStyle="bold"
+        android:text="Meditation"
+        android:textSize="@dimen/schedule_font_title_size"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_subtitle_text_view"
+        android:textSize="@dimen/schedule_font_subtitle_size"
+        android:text="Yesterday"
+        android:textColor="@color/darkGrey"/>
+
+    </LinearLayout>
+
+</LinearLayout>

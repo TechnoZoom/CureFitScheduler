@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/header_date_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingTop="80dp"
+        android:text="29 Apr"
+        android:paddingBottom="80dp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/header_schedule_font_size"
+        android:textStyle="bold" />
+
+
+    <View
+        android:layout_width="@dimen/vertical_separator_line_width"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/vertical_separator_view"
+        android:background="@color/lightGrey" />
+
+
+    <TextView
+        android:paddingBottom="80dp"
+        android:id="@+id/header_date_status_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:paddingTop="80dp"
+
+        android:text="Yesterday"
+        android:textColor="@color/darkGrey"
+        android:textSize="@dimen/header_schedule_font_size" />
+
+</LinearLayout>

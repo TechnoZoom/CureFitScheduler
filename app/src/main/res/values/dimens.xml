@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="header_schedule_font_size">20sp</dimen>
+    <dimen name="schedule_font_title_size">16sp</dimen>
+    <dimen name="schedule_font_subtitle_size">14sp</dimen>
+    <dimen name="vertical_separator_line_width">2dp</dimen>
+
+
+</resources>
