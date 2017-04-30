@@ -25,5 +25,4 @@ public class DrawableUtils {
         return  (Integer) new ArgbEvaluator().evaluate(fraction, startColor, endColor);
     }
 
-
 }
